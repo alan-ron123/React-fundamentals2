@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container1 {
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #240b36;
+}
+.container1 > div > h1 {
+  color: #c31432;
+}
+.container2 {
+  display: flex;
+  align-items: center;
+}
+.container2 a {
+  text-decoration: none;
+  margin-left: 25px;
+}
+.anchor:hover {
+  border-bottom: 2px solid red;
+}
